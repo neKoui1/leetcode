@@ -32,5 +32,4 @@ func main() {
 	fmt.Println(reverse(-120))
 	fmt.Println(reverse(0))
 	fmt.Println(reverse(1534236469))
-
 }
