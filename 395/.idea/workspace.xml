@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8f4f76ad-a548-47ef-82c8-c8db91d51e25" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/../1185/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1185/.idea/1185.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1185/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1185/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1185/Go/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1636/Go/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1652/Go/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../187/Go/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../209/Go/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../219/Go/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../3/Go/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../414/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../476/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../476/.idea/476.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../476/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../476/Go/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../540/Go/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../643/Go/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../672/Go/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../707/Go/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../812/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../812/.idea/812.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../812/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../812/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../812/Go/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../961/.idea/961.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../961/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../961/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../961/Go/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../965/.idea/965.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../965/Go/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../98/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../98/.idea/98.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../98/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../98/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../98/Go/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../98/Go递归判断/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../面试04.06/.idea/面试04.06.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../面试04.06/Go/main.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go Application" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" url="file://$PROJECT_DIR$/../../Program Files/Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2FCXGhIf2IidMCjIJigdI88yWAP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultGoTemplateProperty": "Go Application",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "RunOnceActivity.go.watchers.conflict.with.on.save.actions.check.performed": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "go.import.settings.migrated": "true",
+    "go.sdk.automatically.set": "true",
+    "last_opened_file_path": "D:/leetcode/724"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
+  </component>
+</project>
