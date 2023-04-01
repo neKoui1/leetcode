@@ -3,31 +3,33 @@ package main
 import "fmt"
 
 func isValid(s string) bool {
-	state := 1
-	stk := make([]byte, 1)
-	for i := 0; i < len(s) && state == 1; {
-		switch s[i] {
-		case '(':
-			stk = append(stk, s[i])
-			i++
-		case ')':
-			if stk != nil && stk[len(stk)-1] == '(' {
-				stk = stk[:len(stk)-1]
-				i++
-			} else {
-				state = 0
+	n := len(s)
+	myStack := make([]byte, 0)
+	pair := make(map[byte]byte)
+	pair = map[byte]byte{
+		')': '(',
+		']': '[',
+		'}': '{',
+	}
+	for i := 0; i < n; i++ {
+		if s[i] == ')' || s[i] == ']' || s[i] == '}' {
+			if len(myStack) == 0 {
+				return false
 			}
+			if pair[s[i]] != myStack[len(myStack)-1] {
+				return false
+			}
+			myStack = myStack[:len(myStack)-1]
+		} else {
+			myStack = append(myStack, s[i])
 		}
 	}
-	if stk == nil && state == 1 {
-		return true
-	}
-	return false
+
+	return len(myStack) == 0
 }
 
 func main() {
 	fmt.Println(isValid("()"))
-	stk := [...]byte{'('}
-	fmt.Println(stk)
-	fmt.Println(stk[:len(stk)-1])
+	fmt.Println(isValid("()[]{}"))
+	fmt.Println(isValid("(]"))
 }

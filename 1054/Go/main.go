@@ -4,6 +4,7 @@ import "fmt"
 
 func rearrangeBarcodes(barcodes []int) []int {
 
+	return nil
 }
 func main() {
 	fmt.Println(rearrangeBarcodes([]int{1, 1, 1, 2, 2, 2}))
