@@ -10,7 +10,7 @@ Sorry for that most are simple.
 # 2022.5.4
 Accomplish 100 questions!  
 ![image](https://user-images.githubusercontent.com/77609544/166847174-2a7be4b4-ca9e-4cc5-9d53-9ae5a0953e3b.png)  
-Writing questions of medium in Go and reviewing previous quesions in Java will be preferred in the next stage.  
+Writing questions of medium in Go and reviewing previous questions in Java will be preferred in the next stage.  
 
 # 2022.5.14
 I am always feeling tired when confronted with final exams every term.
@@ -21,7 +21,7 @@ For example, I do not know how to convert class List to basic data structure arr
 
 So I decide to slow down my leetcode solutions cause I must finish my homework and prepare for my final exam.
 
-Well, why do this college still like to use c and cpp to teach data structure and algorithms and force students to finish the test paper with it instead of python and java? At least they are more user-friendly and can help me accelerate the pace of learning programming to solve the real problem and do some projects to enhance my self-confidence. And when I turn to computer architecture after studying algorithms, that is the proper time to gain some knowledege about c and cpp. 
+Well, why do this college still like to use c and cpp to teach data structure and algorithms and force students to finish the test paper with it instead of python and java? At least they are more user-friendly and can help me accelerate the pace of learning programming to solve the real problem and do some projects to enhance my self-confidence. And when I turn to computer architecture after studying algorithms, that is the proper time to gain some knowledge about c and cpp. 
 
 # 2023.2.1
 
