@@ -21,27 +21,41 @@ func replaceValueInTree(root *TreeNode) *TreeNode {
 	if root == nil {
 		return nil
 	}
-	node2Pre := make(map[*TreeNode]*TreeNode, 0)
-	node2Height := make(map[*TreeNode]int, 0)
-	var dfs func(node *TreeNode, pre *TreeNode)
-	dfs = func(node *TreeNode, pre *TreeNode) {
-		if root == nil {
-			return
+	root.Val = 0
+	queue := []*TreeNode{root}
+	for len(queue) != 0 {
+		temp := make([]*TreeNode, len(queue))
+		copy(temp, queue)
+		queue = nil
+		nextLevelSum := 0
+		for _, v := range temp {
+			if v.Left != nil {
+				queue = append(queue, v.Left)
+				nextLevelSum += v.Left.Val
+			}
+			if v.Right != nil {
+				queue = append(queue, v.Right)
+				nextLevelSum += v.Right.Val
+			}
 		}
-		if pre == nil {
-			node2Height[node] = 1
-			node2Pre[node] = nil
-		} else {
-			node2Height[node] = 1 + node2Height[pre]
-			node2Pre[node] = pre
+		for _, v := range temp {
+			nextLevelChildSum := 0
+			if v.Left != nil {
+				nextLevelChildSum += v.Left.Val
+			}
+			if v.Right != nil {
+				nextLevelChildSum += v.Right.Val
+			}
+			if v.Left != nil {
+				v.Left.Val = nextLevelSum - nextLevelChildSum
+			}
+			if v.Right != nil {
+				v.Right.Val = nextLevelSum - nextLevelChildSum
+			}
 		}
-		dfs(root.Left, root)
-		dfs(root.Right, root)
 	}
-	dfs(root, nil)
-	fmt.Println(node2Pre)
-	fmt.Println(node2Height)
-	return nil
+
+	return root
 }
 func main() {
 	root := new(TreeNode)
