@@ -1,26 +1,22 @@
 package main
 
-import (
-	"fmt"
-	"sort"
-)
+import "sort"
 
 func sortPeople(names []string, heights []int) []string {
-	nh := make(map[int]string, 0)
-	for i := 0; i < len(names); i++ {
-		nh[heights[i]] = names[i]
+	ans := make([]string, 0)
+	h2name := make(map[int]string)
+	n := len(names)
+	for i := 0; i < n; i++ {
+		h2name[heights[i]] = names[i]
 	}
-	sort.Slice(heights, func(i, j int) bool {
+	sort.SliceStable(heights, func(i, j int) bool {
 		return heights[i] > heights[j]
 	})
-	res := make([]string, 0)
-	for i := 0; i < len(heights); i++ {
-		res = append(res, nh[heights[i]])
+	for i := 0; i < n; i++ {
+		ans = append(ans, h2name[heights[i]])
 	}
-	return res
+	return ans
 }
-
 func main() {
-	fmt.Println(sortPeople([]string{"Mary", "John", "Emma"}, []int{180, 165, 170}))
-	fmt.Println(sortPeople([]string{"Alice", "Bob", "Bob"}, []int{155, 185, 150}))
+
 }
