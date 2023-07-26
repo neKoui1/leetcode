@@ -1,18 +1,25 @@
-class Solution(object):
-    def lengthOfLIS(self, nums):
-        """
-        :type nums: List[int]
-        :rtype: int
-        """
-        n = len(nums)
-        if n == 0 :
-            return 0
-        dp = []
-        for i in range(n):
-            dp.append(1)
-        for i in range(1, n):
-            for j in range(0, i):
-                if nums[j] < nums[i]:
-                    dp[i] = max(dp[i], dp[j]+1)
+# class Solution:
+#     def lengthOfLIS(self, nums: List[int]) -> int:
+#         n = len(nums)
+#         dp = [ 1 for _ in range(n)]
+#         for i in range(1, n):
+#             for j in range(0, i):
+#                 if nums[i] > nums[j]:
+#                     dp[i] = max(dp[i], dp[j]+1)
         
-        return max(dp)
+#         return max(dp)
+
+from bisect import *
+class Solution:
+    def lengthOfLIS(self, nums: List[int]) -> int:
+        dp = []
+        n = len(nums)
+        for _, v in enumerate(nums):
+            index = bisect_left(dp, v)
+            if index < len(dp):
+                dp[index] = v
+            else:
+                dp.append(v)
+        return len(dp)
+
+
